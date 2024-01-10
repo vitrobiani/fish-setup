@@ -10,4 +10,5 @@ if status is-interactive
     alias ga 'git add -A'
     alias gc 'git commit -a -m "jtp"'
     alias gp 'git push'
+    alias gacp 'ga && gc && gp origin main'
 end
