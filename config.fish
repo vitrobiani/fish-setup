@@ -16,4 +16,7 @@ if status is-interactive
     alias q 'exit'
     alias m 'echo (pwd)>~/.config/fish/loc.txt'
     alias tp 'cd (cat ~/.config/fish/loc.txt)'
+    alias sshStart 'sudo systemctl start ssh'
+    alias sshStatus 'sudo systemctl status ssh'
+    alias sshRestart 'sudo systemctl restart ssh'
 end
